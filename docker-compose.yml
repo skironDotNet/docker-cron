@@ -1,0 +1,7 @@
+version: "3.7"
+
+services:
+  cron:
+    image: flex-cron
+    environment:
+      - SCHEDULE_EXPR=* * * * * #run every minute example
